@@ -399,3 +399,73 @@
 					});
 
 })(jQuery);
+(function() {
+	var TRANSACTION_PERCENT_FEE = 0.0539;
+	var TRANSACTION_FIXED_FEE = 0.30;
+
+	function adjustedWholeDollar(netAmount) {
+		return Math.ceil((netAmount + TRANSACTION_FIXED_FEE) / (1 - TRANSACTION_PERCENT_FEE));
+	}
+
+	function formatWholeUsd(value) {
+		return '$' + value.toLocaleString('en-US', {
+			minimumFractionDigits: 0,
+			maximumFractionDigits: 0
+		});
+	}
+
+	function renderAdjustedPricing() {
+		document.querySelectorAll('.price-calculated[data-price-base]').forEach(function(el) {
+			var base = Number(el.getAttribute('data-price-base'));
+			var activation = Number(el.getAttribute('data-price-activation') || '0');
+			var monthly = el.getAttribute('data-price-recurring') === 'monthly';
+			var firstMonthIncluded = el.getAttribute('data-price-first-month-included') === 'true';
+
+			if (!Number.isFinite(base) || base < 0 || !Number.isFinite(activation) || activation < 0) {
+				return;
+			}
+
+			var displayedBase = adjustedWholeDollar(base);
+			var currentUnit = monthly ? el.querySelector('.pricing-unit') : null;
+			var unitHtml = currentUnit
+				? currentUnit.outerHTML
+				: '<span class="pricing-unit" data-i18n="pricing.unit.perMonth">/mo</span>';
+			el.innerHTML = formatWholeUsd(displayedBase) + (monthly ? unitHtml : '');
+
+			if (monthly && activation > 0) {
+				var option = el.closest('.pricing-option');
+				var activationMeta = option ? option.querySelector('[data-price-activation-meta]') : null;
+
+				if (activationMeta) {
+					var displayedActivation;
+					if (firstMonthIncluded) {
+						displayedActivation = adjustedWholeDollar(activation);
+					} else {
+						var displayedFirstPayment = adjustedWholeDollar(base + activation);
+						displayedActivation = Math.max(0, displayedFirstPayment - displayedBase);
+					}
+
+					var template = activationMeta.innerHTML;
+					if (template.indexOf('{amount}') !== -1) {
+						activationMeta.innerHTML = template.replace('{amount}', formatWholeUsd(displayedActivation));
+					} else {
+						activationMeta.innerHTML = activationMeta.getAttribute('data-price-template') || template;
+						activationMeta.innerHTML = activationMeta.innerHTML.replace('{amount}', formatWholeUsd(displayedActivation));
+					}
+					activationMeta.setAttribute('data-price-template', template.indexOf('{amount}') !== -1 ? template : (activationMeta.getAttribute('data-price-template') || template));
+				}
+			}
+		});
+	}
+
+	document.addEventListener('DOMContentLoaded', function() {
+		renderAdjustedPricing();
+
+		var observer = new MutationObserver(function(mutations) {
+			if (mutations.some(function(mutation) { return mutation.attributeName === 'lang'; })) {
+				window.requestAnimationFrame(renderAdjustedPricing);
+			}
+		});
+		observer.observe(document.documentElement, { attributes: true, attributeFilter: ['lang'] });
+	});
+})();
