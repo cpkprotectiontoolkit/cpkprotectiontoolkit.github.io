@@ -92,7 +92,7 @@
     "pricing.plan.free": "Free",
     "pricing.badge.bestValue": "Best value",
     "pricing.unit.perMonth": "/mo",
-    "pricing.meta.activation": "+ $54.99 activation fee (one-time)",
+    "pricing.meta.activation": "+ {amount} activation fee (one-time)",
     "pricing.meta.oneTime": "one-time payment",
     "pricing.meta.bundleIncludes": "Includes Toolkit + Unlocker",
     "pricing.meta.saveSmall": "Save $9.98 vs separate",
@@ -109,13 +109,13 @@
     "pricing.note.breakEven": "For the Subscription of <b>CPK Protection Toolkit</b> / <b>ULTIMATE CPK Unlocker</b>, the break-even point versus Lifetime is about <b>6.7 months</b> (<code>54.99 + 15 × months</code>). Choose Subscription for short projects; choose Lifetime for long-term use.",
     "pricing.note.multilicense": "Need <b>2+ licenses</b>? Ask about volume discounts when you contact us.",
 
-    "buy.withPayPal.info": "<span style=\"font-family:'Segoe UI Emoji'; color:#004dbb\">ℹ️</span> To purchase any of the products listed above, click the <b>BUY WITH PAYPAL</b> button below. On the purchase details page, enter the name of the app you want in the <u>Description</u> field, and enter the corresponding amount from the pricing options above in the <u>Price per item</u> field.",
+    "buy.withPayPal.info": "<span style=\"font-family:'Segoe UI Emoji'; color:#004dbb\">ℹ️</span> To purchase any of the products listed above, click the <b>BUY WITH PAYPAL</b> button below. On the purchase details page, enter the app name in the <u>Description</u> field and the displayed price in the <u>Price per item</u> field. For monthly subscriptions with an activation fee, add the listed activation fee to the monthly price for the first payment. If the activation fee includes the first month, use only the activation fee for the first payment.",
     "buy.withPayPal.button": "Buy with PayPal",
 
     "contact.lead": "Use the below contact form if you want to contact us on e-mail. We will answer as soon as possible.",
     "contact.social": "You can find us on Twitter, Facebook or Discord by clicking the below icons corresponding to each social network.",
     "footer.copyright": "© 2026 IT World Software Solutions",
-    "pricing.meta.activation.fee": "+ $500 activation fee (one-time)",
+    "pricing.meta.activation.fee": "+ {amount} activation fee (one-time, includes first month)",
     "pricing.tier.pes.ultimate": "Ultimate",
 },
 
@@ -201,7 +201,7 @@
     "pricing.plan.free": "Gratis",
     "pricing.badge.bestValue": "Mejor opción",
     "pricing.unit.perMonth": "/mes",
-    "pricing.meta.activation": "+ $54.99 tarifa de activación (pago único)",
+    "pricing.meta.activation": "+ {amount} tarifa de activación (pago único)",
     "pricing.meta.oneTime": "pago único",
     "pricing.meta.bundleIncludes": "Incluye Toolkit + Unlocker",
     "pricing.meta.saveSmall": "Ahorra $9.98 vs. separado",
@@ -219,13 +219,13 @@
     "pricing.note.breakEven": "Para la Suscripción de <b>CPK Protection Toolkit</b> / <b>ULTIMATE CPK Unlocker</b>, el punto de equilibrio frente a De por vida es de aproximadamente <b>6.7 meses</b> (<code>54.99 + 15 × meses</code>). Elija Suscripción para proyectos de corta duración; elija De por vida para uso a largo plazo.",
     "pricing.note.multilicense": "¿Necesita <b>2+ licencias</b>? Pregunte por descuentos por volumen cuando nos contacte.",
 
-    "buy.withPayPal.info": "<span style=\"font-family:'Segoe UI Emoji'; color:#004dbb\">ℹ️</span> Para comprar cualquiera de los productos listados arriba, haz clic en el botón <b>BUY WITH PAYPAL</b> de abajo. En la página de detalles de la compra, escribe el nombre de la app que quieres en el campo <u>Description</u> e introduce el importe correspondiente de las opciones de precios de arriba en el campo <u>Price per item</u>.",
+    "buy.withPayPal.info": "<span style=\"font-family:'Segoe UI Emoji'; color:#004dbb\">ℹ️</span> Para comprar cualquiera de los productos indicados arriba, haz clic en el botón <b>BUY WITH PAYPAL</b>. En la página de compra, escribe el nombre de la app en <u>Description</u> y el precio mostrado en <u>Price per item</u>. Para suscripciones mensuales con tarifa de activación, suma la tarifa de activación indicada al precio mensual para el primer pago. Si la tarifa de activación incluye el primer mes, usa solo la tarifa de activación para el primer pago.",
     "buy.withPayPal.button": "Comprar con PayPal",
     
     "contact.lead": "Use el formulario de contacto de abajo si desea contactarnos por correo electrónico. Responderemos lo antes posible.",
     "contact.social": "Puede encontrarnos en Twitter, Facebook o Discord haciendo clic en los iconos de abajo correspondientes a cada red social.",
     "footer.copyright": "© 2026 IT World Software Solutions",
-    "pricing.meta.activation.fee": "+ $500 tarifa de activación (pago único)",
+    "pricing.meta.activation.fee": "+ {amount} tarifa de activación (pago único, incluye el primer mes)",
     "pricing.tier.pes.ultimate": "Ultimate",
 },
 
@@ -311,7 +311,7 @@
     "pricing.plan.free": "Gratis",
     "pricing.badge.bestValue": "Nilai terbaik",
     "pricing.unit.perMonth": "/bulan",
-    "pricing.meta.activation": "+ $54.99 biaya aktivasi (sekali bayar)",
+    "pricing.meta.activation": "+ {amount} biaya aktivasi (sekali bayar)",
     "pricing.meta.oneTime": "sekali bayar",
     "pricing.meta.bundleIncludes": "Termasuk Toolkit + Unlocker",
     "pricing.meta.saveSmall": "Hemat $9.98 dibanding terpisah",
@@ -329,13 +329,13 @@
     "pricing.note.breakEven": "Untuk Langganan <b>CPK Protection Toolkit</b> / <b>ULTIMATE CPK Unlocker</b>, titik impas dibanding Seumur hidup sekitar <b>6.7 bulan</b> (<code>54.99 + 15 × bulan</code>). Pilih Langganan untuk proyek jangka pendek; pilih Seumur hidup untuk penggunaan jangka panjang.",
     "pricing.note.multilicense": "Butuh <b>2+ lisensi</b>? Tanyakan diskon volume saat Anda menghubungi kami.",
 
-    "buy.withPayPal.info": "<span style=\"font-family:'Segoe UI Emoji'; color:#004dbb\">ℹ️</span> Untuk membeli produk apa pun yang tercantum di atas, klik tombol <b>BUY WITH PAYPAL</b> di bawah. Pada halaman detail pembelian, masukkan nama aplikasi yang Anda inginkan pada kolom <u>Description</u>, lalu masukkan nominal yang sesuai dari opsi harga di atas pada kolom <u>Price per item</u>.",
+    "buy.withPayPal.info": "<span style=\"font-family:'Segoe UI Emoji'; color:#004dbb\">ℹ️</span> Untuk membeli produk di atas, klik tombol <b>BUY WITH PAYPAL</b>. Pada halaman pembelian, masukkan nama aplikasi pada kolom <u>Description</u> dan harga yang ditampilkan pada kolom <u>Price per item</u>. Untuk langganan bulanan dengan biaya aktivasi, tambahkan biaya aktivasi yang tercantum ke harga bulanan untuk pembayaran pertama. Jika biaya aktivasi sudah termasuk bulan pertama, gunakan hanya biaya aktivasi untuk pembayaran pertama.",
     "buy.withPayPal.button": "Beli dengan PayPal",
     
     "contact.lead": "Gunakan formulir kontak di bawah ini jika Anda ingin menghubungi kami melalui email. Kami akan menjawab secepat mungkin.",
     "contact.social": "Anda dapat menemukan kami di Twitter, Facebook, atau Discord dengan mengklik ikon di bawah sesuai dengan masing-masing jejaring sosial.",
     "footer.copyright": "© 2026 IT World Software Solutions",
-    "pricing.meta.activation.fee": "+ $500 biaya aktivasi (sekali bayar)",
+    "pricing.meta.activation.fee": "+ {amount} biaya aktivasi (sekali bayar, termasuk bulan pertama)",
     "pricing.tier.pes.ultimate": "Ultimate",
 },
 
@@ -421,7 +421,7 @@
     "pricing.plan.free": "免费",
     "pricing.badge.bestValue": "最划算",
     "pricing.unit.perMonth": "/月",
-    "pricing.meta.activation": "+ $54.99 激活费（一次性）",
+    "pricing.meta.activation": "+ {amount} 激活费（一次性）",
     "pricing.meta.oneTime": "一次性付款",
     "pricing.meta.bundleIncludes": "包含 Toolkit + Unlocker",
     "pricing.meta.saveSmall": "比分开购买省 $9.98",
@@ -439,13 +439,13 @@
     "pricing.note.breakEven": "对于 <b>CPK Protection Toolkit</b> / <b>ULTIMATE CPK Unlocker</b> 的订阅方案，与终身版相比的回本时间约为 <b>6.7 个月</b>（<code>54.99 + 15 × 月数</code>）。短期项目选订阅，长期使用选终身。",
     "pricing.note.multilicense": "需要 <b>2+ 席位</b>？联系时可咨询批量折扣。",
 
-    "buy.withPayPal.info": "<span style=\"font-family:'Segoe UI Emoji'; color:#004dbb\">ℹ️</span> 如需购买以上任意产品，请点击下方 <b>BUY WITH PAYPAL</b> 按钮。在购买详情页中，请在 <u>Description</u> 字段填写你想购买的应用名称，并在 <u>Price per item</u> 字段填写上方价格选项中对应的金额。",
+    "buy.withPayPal.info": "<span style=\"font-family:'Segoe UI Emoji'; color:#004dbb\">ℹ️</span> 如需购买以上产品，请点击下方 <b>BUY WITH PAYPAL</b> 按钮。在购买页面的 <u>Description</u> 字段填写应用名称，并在 <u>Price per item</u> 字段填写页面显示的价格。对于带激活费的月度订阅，首次付款时将所列激活费加到月费中。如果激活费已包含首月，则首次付款只需使用激活费金额。",
     "buy.withPayPal.button": "使用 PayPal 购买",
     
     "contact.lead": "如需通过电子邮件联系，请使用下方联系表单。我们会尽快回复。",
     "contact.social": "您也可以点击下方对应图标，在 Twitter、Facebook 或 Discord 上找到我们。",
     "footer.copyright": "© 2026 IT World Software Solutions",
-    "pricing.meta.activation.fee": "+ $500 激活费（一次性）",
+    "pricing.meta.activation.fee": "+ {amount} 激活费（一次性，包含首月）",
     "pricing.tier.pes.ultimate": "终极版",
 }
 };
