@@ -108,6 +108,7 @@
     "pricing.note.device": "Licenses are <b>per device</b> (1 computer). If you need the same tool on multiple computers, you'll need multiple licenses.",
     "pricing.note.breakEven": "For the Subscription of <b>CPK Protection Toolkit</b> / <b>ULTIMATE CPK Unlocker</b>, the break-even point versus Lifetime is about <b>6.7 months</b> (<code>54.99 + 15 × months</code>). Choose Subscription for short projects; choose Lifetime for long-term use.",
     "pricing.note.multilicense": "Need <b>2+ licenses</b>? Ask about volume discounts when you contact us.",
+    "pricing.note.paypalFee": "Prices include the PayPal 5.39% + $0.30 processing fee.",
 
     "buy.withPayPal.info": "<span style=\"font-family:'Segoe UI Emoji'; color:#004dbb\">ℹ️</span> To purchase any of the products listed above, click the <b>BUY WITH PAYPAL</b> button below. On the purchase details page, enter the app name in the <u>Description</u> field and the displayed price in the <u>Price per item</u> field. For monthly subscriptions with an activation fee, add the listed activation fee to the monthly price for the first payment. If the activation fee includes the first month, use only the activation fee for the first payment.",
     "buy.withPayPal.button": "Buy with PayPal",
@@ -218,6 +219,7 @@
     "pricing.note.device": "Las licencias son <b>por dispositivo</b> (1 ordenador). Si necesita la misma herramienta en varios ordenadores, necesitará varias licencias.",
     "pricing.note.breakEven": "Para la Suscripción de <b>CPK Protection Toolkit</b> / <b>ULTIMATE CPK Unlocker</b>, el punto de equilibrio frente a De por vida es de aproximadamente <b>6.7 meses</b> (<code>54.99 + 15 × meses</code>). Elija Suscripción para proyectos de corta duración; elija De por vida para uso a largo plazo.",
     "pricing.note.multilicense": "¿Necesita <b>2+ licencias</b>? Pregunte por descuentos por volumen cuando nos contacte.",
+    "pricing.note.paypalFee": "Los precios incluyen la comisión de procesamiento de PayPal del 5,39 % + $0.30.",
 
     "buy.withPayPal.info": "<span style=\"font-family:'Segoe UI Emoji'; color:#004dbb\">ℹ️</span> Para comprar cualquiera de los productos indicados arriba, haz clic en el botón <b>BUY WITH PAYPAL</b>. En la página de compra, escribe el nombre de la app en <u>Description</u> y el precio mostrado en <u>Price per item</u>. Para suscripciones mensuales con tarifa de activación, suma la tarifa de activación indicada al precio mensual para el primer pago. Si la tarifa de activación incluye el primer mes, usa solo la tarifa de activación para el primer pago.",
     "buy.withPayPal.button": "Comprar con PayPal",
@@ -328,6 +330,7 @@
     "pricing.note.device": "Lisensi adalah <b>per perangkat</b> (1 komputer). Jika Anda membutuhkan alat yang sama di beberapa komputer, Anda memerlukan beberapa lisensi.",
     "pricing.note.breakEven": "Untuk Langganan <b>CPK Protection Toolkit</b> / <b>ULTIMATE CPK Unlocker</b>, titik impas dibanding Seumur hidup sekitar <b>6.7 bulan</b> (<code>54.99 + 15 × bulan</code>). Pilih Langganan untuk proyek jangka pendek; pilih Seumur hidup untuk penggunaan jangka panjang.",
     "pricing.note.multilicense": "Butuh <b>2+ lisensi</b>? Tanyakan diskon volume saat Anda menghubungi kami.",
+    "pricing.note.paypalFee": "Harga sudah termasuk biaya pemrosesan PayPal sebesar 5,39% + $0.30.",
 
     "buy.withPayPal.info": "<span style=\"font-family:'Segoe UI Emoji'; color:#004dbb\">ℹ️</span> Untuk membeli produk di atas, klik tombol <b>BUY WITH PAYPAL</b>. Pada halaman pembelian, masukkan nama aplikasi pada kolom <u>Description</u> dan harga yang ditampilkan pada kolom <u>Price per item</u>. Untuk langganan bulanan dengan biaya aktivasi, tambahkan biaya aktivasi yang tercantum ke harga bulanan untuk pembayaran pertama. Jika biaya aktivasi sudah termasuk bulan pertama, gunakan hanya biaya aktivasi untuk pembayaran pertama.",
     "buy.withPayPal.button": "Beli dengan PayPal",
@@ -438,6 +441,7 @@
     "pricing.note.device": "许可为 <b>按设备</b>（1 台电脑）绑定。如果需要在多台电脑上使用同一工具，需要购买多个席位。",
     "pricing.note.breakEven": "对于 <b>CPK Protection Toolkit</b> / <b>ULTIMATE CPK Unlocker</b> 的订阅方案，与终身版相比的回本时间约为 <b>6.7 个月</b>（<code>54.99 + 15 × 月数</code>）。短期项目选订阅，长期使用选终身。",
     "pricing.note.multilicense": "需要 <b>2+ 席位</b>？联系时可咨询批量折扣。",
+    "pricing.note.paypalFee": "价格已包含 PayPal 5.39% + $0.30 的交易处理费。",
 
     "buy.withPayPal.info": "<span style=\"font-family:'Segoe UI Emoji'; color:#004dbb\">ℹ️</span> 如需购买以上产品，请点击下方 <b>BUY WITH PAYPAL</b> 按钮。在购买页面的 <u>Description</u> 字段填写应用名称，并在 <u>Price per item</u> 字段填写页面显示的价格。对于带激活费的月度订阅，首次付款时将所列激活费加到月费中。如果激活费已包含首月，则首次付款只需使用激活费金额。",
     "buy.withPayPal.button": "使用 PayPal 购买",
